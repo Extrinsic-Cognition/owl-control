@@ -17,7 +17,7 @@ export function references(text, file) {
       if (!/@sha256:[a-f0-9]{64}$/.test(value)) throw new Error(file + ':' + (index + 1) + ': Docker action requires an immutable digest');
       continue;
     }
-    const ref = /^([A-Za-z0-9_.-]+\/[A-Za-z0-9_.\/-]+)@([a-f0-9]{40})$/.exec(value);
+    const ref = /^([A-Za-z0-9_.-]+\/[A-Za-z0-9_./-]+)@([a-f0-9]{40})$/.exec(value);
     if (!ref) throw new Error(file + ':' + (index + 1) + ': remote action requires a full commit SHA');
     result.push({ action: ref[1], sha: ref[2], file, line: index + 1 });
   }

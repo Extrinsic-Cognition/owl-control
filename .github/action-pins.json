@@ -3,7 +3,7 @@
   "issue": "https://github.com/Extrinsic-Cognition/ec-workspace/issues/22",
   "checker": {
     "source": "ec-workspace/tools/action-pins/action-pins.mjs",
-    "sha256": "fa867b65eed45db8eb68624375d40e8c8f630901feafc4ecb9e5a9da380d9474"
+    "sha256": "806f446c938f5ea3271867c720062eb901f60c7e9a434fbf1c353b7888383f05"
   },
   "actions": [
     {
