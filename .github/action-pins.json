@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "issue": "https://github.com/Extrinsic-Cognition/ec-workspace/issues/22",
+  "checker": {
+    "source": "ec-workspace/tools/action-pins/action-pins.mjs",
+    "sha256": "806f446c938f5ea3271867c720062eb901f60c7e9a434fbf1c353b7888383f05"
+  },
+  "actions": [
+    {
+      "action": "actions-rs/toolchain",
+      "source": "actions-rs/toolchain",
+      "sha": "16499b5e05bf2e26879000db0c1d13f7e13fa3af",
+      "track": "v1",
+      "commitUrl": "https://github.com/actions-rs/toolchain/commit/16499b5e05bf2e26879000db0c1d13f7e13fa3af",
+      "verifiedAt": "2026-10-12T22:02:42.989Z",
+      "artifact": {
+        "path": "action.yml",
+        "blob": "baf2dfe49dcc14abe15303e32d1e017085bbd7be"
+      }
+    },
+    {
+      "action": "actions/checkout",
+      "source": "actions/checkout",
+      "sha": "11d5960a326750d5838078e36cf38b85af677262",
+      "track": "v4",
+      "commitUrl": "https://github.com/actions/checkout/commit/11d5960a326750d5838078e36cf38b85af677262",
+      "verifiedAt": "2026-10-12T22:02:39.206Z",
+      "artifact": {
+        "path": "action.yml",
+        "blob": "24e73e5a12126edc2adb9e5cd1bf245ce85bde56"
+      }
+    },
+    {
+      "action": "actions/download-artifact",
+      "source": "actions/download-artifact",
+      "sha": "d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "track": "v4",
+      "commitUrl": "https://github.com/actions/download-artifact/commit/d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "verifiedAt": "2026-10-12T22:02:43.693Z",
+      "artifact": {
+        "path": "action.yml",
+        "blob": "7fc4fb55c7d0c7b198b1c7466e1efd7c7d05fb26"
+      }
+    },
+    {
+      "action": "actions/setup-node",
+      "source": "actions/setup-node",
+      "sha": "49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "track": "v4",
+      "commitUrl": "https://github.com/actions/setup-node/commit/49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "verifiedAt": "2026-10-12T22:02:40.625Z",
+      "artifact": {
+        "path": "action.yml",
+        "blob": "ef58e69919a94e6a823d333159fad95e2720c896"
+      }
+    },
+    {
+      "action": "actions/upload-artifact",
+      "source": "actions/upload-artifact",
+      "sha": "ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "track": "v4",
+      "commitUrl": "https://github.com/actions/upload-artifact/commit/ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "verifiedAt": "2026-10-12T22:02:39.179Z",
+      "artifact": {
+        "path": "action.yml",
+        "blob": "2a0ecf19e8d0087dd2e5d1785dcf764811e79fae"
+      }
+    },
+    {
+      "action": "negrutiu/nsis-install",
+      "source": "negrutiu/nsis-install",
+      "sha": "f3339c88dba6fd08910d5275a943f8f746d94876",
+      "track": "v2",
+      "commitUrl": "https://github.com/negrutiu/nsis-install/commit/f3339c88dba6fd08910d5275a943f8f746d94876",
+      "verifiedAt": "2026-10-12T22:02:43.302Z",
+      "artifact": {
+        "path": "action.yml",
+        "blob": "c4c0e212b7073311f9b647bad355e43a490d9da7"
+      }
+    },
+    {
+      "action": "softprops/action-gh-release",
+      "source": "softprops/action-gh-release",
+      "sha": "3bb12739c298aeb8a4eeaf626c5b8d85266b0e65",
+      "track": "v2",
+      "commitUrl": "https://github.com/softprops/action-gh-release/commit/3bb12739c298aeb8a4eeaf626c5b8d85266b0e65",
+      "verifiedAt": "2026-10-12T22:02:44.434Z",
+      "artifact": {
+        "path": "action.yml",
+        "blob": "b471d236bc28052c1d78c3d6b57ee480d192da6a"
+      }
+    },
+    {
+      "action": "Swatinem/rust-cache",
+      "source": "Swatinem/rust-cache",
+      "sha": "6323deb102c322ba6fcbdcafc7e3dddab59af2b6",
+      "track": "v2",
+      "commitUrl": "https://github.com/Swatinem/rust-cache/commit/6323deb102c322ba6fcbdcafc7e3dddab59af2b6",
+      "verifiedAt": "2026-10-12T22:02:44.950Z",
+      "artifact": {
+        "path": "action.yml",
+        "blob": "1481945d779f128e201b6aa5498c53fe4ae9632c"
+      }
+    }
+  ]
+}
